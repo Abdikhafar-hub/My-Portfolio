@@ -5,26 +5,12 @@ import BlogsPage from "./sections/BlogsPage";
 import ProjectsPage from "./sections/ProjectsPage";
 import ErrorPage from "./sections/404";
 import { Routes, Route } from "react-router-dom";
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+
 import StarBackground from "./components/Background/StarBackground";
 import ShootingStars from "./components/Background/ShootingStars";
 
 function App() {
-	const firebaseConfig = {
-		apiKey: "AIzaSyAuAKF6IQdM5s_fp8c4qp2fDfwRTe8GHeo",
-		authDomain: "gateremark.firebaseapp.com",
-		projectId: "gateremark",
-		storageBucket: "gateremark.appspot.com",
-		messagingSenderId: "651139787571",
-		appId: "1:651139787571:web:1c2d9ec540da30bff3ac46",
-		measurementId: "G-N9EJ1HXKXQ",
-	};
-
-	// Initialize Firebase
-	const app = initializeApp(firebaseConfig);
-	getAnalytics(app);
-	// ----------------------------------------------------
+	
 
 	return (
 		<div className=" transition-all ease-in-out duration-500 relative">

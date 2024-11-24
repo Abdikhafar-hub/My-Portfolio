@@ -47,7 +47,7 @@ export const projsData = [
 		title: "Movie Mania",
 		desc: "A movie app utilizing the TMDB API to fetch movie data and provides a user-friendly interface for users to browse and explore various movies.",
 		github: "https://github.com/Abdikhafar-hub/Movie-Mania",
-		live: "https://vercel.com/abdikhafar/movie-mania",
+		live: "https://movie-mania-git-main-abdikhafar.vercel.app/",
 		tech: ["HTML,", "CSS,", "JavaScript,", "TMDB API"],
 	},
 	{

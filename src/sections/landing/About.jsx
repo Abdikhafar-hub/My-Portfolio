@@ -60,7 +60,7 @@ const About = () => {
 							<p className="mb-2 text-center md:text-left">
 								• Equipped with both basic and advanced military training from the Kenya Military Academy, <br/>
                                 a constituent college of the National Defence University-Kenya, and a solid foundation <br/>
-                                in Software Engineering from Flatiron School, I have successfully transitioned the skills, <br/>
+                                in Software Engineering from Moringa School, I have successfully transitioned the skills, <br/>
                                 discipline, and proficiency gained during my tenure as a Cadet Officer into the tech field. <br/>
                                 I apply military precision to full-stack software development, delivering robust and <br/>
                                 user-friendly web applications.

@@ -32,17 +32,7 @@ const Projects = () => {
 			tech: ["React.js,", "SQLAlchemy,", "Flask"],
 			videoExp: "https://drive.google.com/file/d/1B4dB_51ir7G9beXeFua8mAkxkda6634k/view?usp=drive_link",
 		},
-		{
-			id: "proj-3",
-			imgUrl:
-				"https://res.cloudinary.com/ddkkfumkl/image/upload/v1729369112/DALL_E_2024-10-19_23.17.57_-_A_luxurious_real_estate_mansion_labeled_A.khafar_prominently_displayed_at_the_entrance._The_mansion_features_grand_modern_architecture_with_large_g_kzmd6q.webp",
-			title: "Real Estate App",
-			desc: "Designed to connect prospective homeowners, tenants, and real estate professionals with their perfect housing solutions.. ",
-			github: "https://github.com/Abdikhafar-hub/A.khafar-homes",
-			live: "https://a-khafar-homes.vercel.app/",
-			tech: ["React.js,", "Firebase,", "TailwindCSS"],
-			videoExp: "",
-		},
+	
 	
 		{
 			id: "proj-4",
@@ -63,7 +53,7 @@ const Projects = () => {
 			title: "Movie Mania",
 			desc: "A movie app utilizing the TMDB API to fetch movie data and provides a user-friendly interface for users to browse and explore various movies.",
 			github: "https://github.com/Abdikhafar-hub/Movie-Mania",
-			live: "https://movie-mania-dbvu66ol5-abdikhafar.vercel.app/",
+			live: "https://movie-mania-git-main-abdikhafar.vercel.app/",
 			tech: ["HTML,", "CSS,", "JavaScript,", "TMDB API"],
 			videoExp: "",
 		},

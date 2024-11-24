@@ -7,12 +7,11 @@
             type="image/svg+xml"
             href="https://res.cloudinary.com/ddkkfumkl/image/upload/v1728570367/WhatsApp_Image_2024-10-10_at_5.21.06_PM_gi5jhw.jpg"
         />
-        <!-- <link rel="stylesheet" href="https://stijndv.com/fonts/Eudoxus-Sans.css" /> -->
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Abdikhafar Issack</title>
         <meta
             name="description"
-            content="This is Abdikhafar issack's portfolio containing his projects, blog posts, resume and contact information."
+            content="This is Abdikhafar Issack's portfolio containing his projects, blog posts, resume, and contact information."
         />
         <meta name="keywords" content="portfolio, resume, blog, projects" />
         <meta name="author" content="abdikhafar" />
@@ -22,10 +21,11 @@
             property="og:image"
             content="https://res.cloudinary.com/ddkkfumkl/image/upload/v1728570367/WhatsApp_Image_2024-10-10_at_5.21.06_PM_gi5jhw.jpg"
         />
+
         <!-- Smartsupp Live Chat script -->
-        <!-- <script type="text/javascript">
+        <script type="text/javascript">
             var _smartsupp = _smartsupp || {};
-            _smartsupp.key = "5ae2ae32694e56e4ed4d77bc510e0f07b40596f0";
+            _smartsupp.key = "60dd73faaccf2c7eb7afc0fa47aa3f1488ae3bf9";
             window.smartsupp ||
                 (function (d) {
                     var s,
@@ -42,11 +42,30 @@
                     c.src = "https://www.smartsuppchat.com/loader.js?";
                     s.parentNode.insertBefore(c, s);
                 })(document);
-        </script> -->
+        </script>
+
+        <!-- Embedded CSS -->
+        <style>
+            /* Calendly Badge Widget */
+            .calendly-badge-widget {
+                position: fixed !important;
+                bottom: 20px !important; 
+                left: 20px !important; 
+                z-index: 9999 !important; 
+            }
+
+            /* Smartsupp Live Chat Widget */
+            #smartsupp-chat {
+                position: fixed !important;
+                bottom: 20px !important; 
+                left: 120px !important; 
+                z-index: 10000 !important; 
+            }
+        </style>
     </head>
     <body>
-        <!-- Calendly badge widget begin -->
-        <!-- <link
+        <!-- Calendly badge widget -->
+        <link
             href="https://assets.calendly.com/assets/external/widget.css"
             rel="stylesheet"
         />
@@ -58,30 +77,36 @@
         <script type="text/javascript">
             window.onload = function () {
                 Calendly.initBadgeWidget({
-                    url: "https://calendly.com/abdikhafar",
-                    text: "Schedule time with me",
-                    color: "#0069ff",
-                    textColor: "#ffffff",
+                    url: "https://calendly.com/abdikhafarissack",
+                    text: "Book a meeting with me!📅",
+                    color: "#01f53f",
+                    textColor: "#000000",
                     branding: false,
                 });
+
+                // Adjust Smartsupp Chat Position
+                const smartsuppChat = document.querySelector("#smartsupp-chat");
+                if (smartsuppChat) {
+                    smartsuppChat.style.position = "fixed";
+                    smartsuppChat.style.bottom = "20px"; 
+                    smartsuppChat.style.left = "120px"; 
+                    smartsuppChat.style.zIndex = "10000"; 
+                }
+
+                // Adjust Calendly Badge Position
+                const calendlyBadge = document.querySelector(
+                    ".calendly-badge-widget"
+                );
+                if (calendlyBadge) {
+                    calendlyBadge.style.position = "fixed";
+                    calendlyBadge.style.bottom = "20px"; 
+                    calendlyBadge.style.left = "20px"; 
+                    calendlyBadge.style.zIndex = "9999"; 
+                }
             };
-        </script> -->
-        <!-- Calendly badge widget end -->
+        </script>
+
         <div id="root"></div>
-        <!-- Calendly inline widget begin -->
-        
-        <!-- <div
-            class="calendly-inline-widget"
-            data-url="https://calendly.com/abdikhafar?background_color=0b1120&text_color=ffffff"
-            style="min-width: 320px; height: 700px"
-        ></div>
-        <script
-            type="text/javascript"
-            src="https://assets.calendly.com/assets/external/widget.js"
-            async
-        ></script> -->
-        <!-- Calendly inline widget end -->
-        <!-- Calendly inline widget end -->
         <script type="module" src="/src/main.jsx"></script>
     </body>
 </html>
