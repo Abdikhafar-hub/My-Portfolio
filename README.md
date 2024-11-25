@@ -4,7 +4,7 @@
 Welcome to my personal portfolio website! This project showcases my skills, projects, blogs, and contact information in a sleek and modern design. It’s the perfect place to explore my work and connect with me.
 
 ## 🌐 Live Demo
-You can view the live version of my portfolio here: [Abdikhafar Portfolio](https://abdikhafar.me/)
+You can view the live version of my portfolio here:https://my-portfolio-8pvj.vercel.app/
 
 ---
 
