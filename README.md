@@ -1,42 +1,5 @@
 # Abdikhafar Issack - Portfolio Website
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, blogs, and contact information in a sleek and modern design. It’s the perfect place to explore my work and connect with me.
-
-## 🌐 Live Demo
-You can view the live version of my portfolio here: [Abdikhafar Portfolio](https://abdikhafar.me/)
-
----
-
-## 🛠️ Features
-- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
-- **Projects Section**: Showcasing my best work with descriptions and links.
-- **Blog Posts**: Sharing my knowledge and experiences in web development and beyond.
-- **Resume**: Downloadable CV for easy reference.
-- **Contact Form**: Reach out to me directly from the website.
-- **Calendly Integration**: Schedule a meeting with me through a built-in widget.
-- **Live Chat Support**: Powered by Smartsupp, for instant communication.
-
----
-
-## 🚀 Technologies Used
-- **Frontend**: HTML, CSS, JavaScript
-- **Frameworks/Libraries**: React, Tailwind CSS
-- **Tools**: Vite for development and build
-- **Integrations**: 
-  - [Calendly](https://calendly.com) for meeting scheduling.
-  - [Smartsupp](https://www.smartsupp.com) for live chat support.
-
----
-
-## 📂 Project Structure
-Here’s a brief overview of the folder structure:
-
-
-Here’s a sample README.md file for your portfolio website:
-
-markdown
-Copy code
-# Abdikhafar Issack - Portfolio Website
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, blogs, and contact information in a sleek and modern design. It’s the perfect place to explore my work and connect with me.
 
@@ -68,13 +31,10 @@ You can view the live version of my portfolio here: [Abdikhafar Portfolio](https
 
 ## 📂 Project Structure
 Here’s a brief overview of the folder structure:
+![Screenshot from 2024-11-25 18-56-21](https://github.com/user-attachments/assets/668455b6-4d6c-4f11-9cf9-59b585bf976a)
 
-📂 src/ ├── components/ # Reusable React components ├── pages/ # Main pages of the website ├── assets/ # Images and static files ├── styles/ # Global and component-level styles └── main.jsx # Entry point for the application
 
-yaml
-Copy code
 
----
 
 ## 📦 Installation and Setup
 If you’d like to run this project locally, follow these steps:
@@ -86,12 +46,12 @@ If you’d like to run this project locally, follow these steps:
 Install Dependencies:
 
 bash
-Copy code
+
 npm install
 Start the Development Server:
 
 bash
-Copy code
+
 npm run dev
 The website will be available at http://localhost:5173.
 
